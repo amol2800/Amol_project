@@ -18,6 +18,7 @@ import { CompoBComponent } from './class/compo-b/compo-b.component';
 import { Parent2Component } from './class/datacomunication -2/parent2/parent2.component';
 import { ChildComponent } from './class/datacomunication -2/child/child.component';
 import { CustomPipe } from './custom.pipe';
+import { Demo1Component } from './demo1/demo1.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { CustomPipe } from './custom.pipe';
     CompoBComponent,
     Parent2Component,
     ChildComponent,
-    CustomPipe
+    CustomPipe,
+    Demo1Component
     
   ],
   imports: [
