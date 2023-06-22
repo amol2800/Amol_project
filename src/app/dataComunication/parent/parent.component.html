@@ -1,0 +1,9 @@
+<p>parent works!</p>
+
+<h4>start parent class data</h4>
+<app-innerchild [data1]='parentdata' [data2]="parentdata2" (dataevent)="fatchdatafromchildtoParent($event)" (dataevent2)="fatchdatafromchildtoParent2($event)"></app-innerchild>
+<p>come chil data=><b>{{childdata3}}</b></p>
+<p>come chil data2=><b>{{childdata4}}</b></p>
+
+<h4>end parent class data</h4>
+

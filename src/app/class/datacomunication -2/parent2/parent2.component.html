@@ -1,0 +1,10 @@
+<h5>start parent component</h5>
+
+<app-child [dataevent]="parentData" (evendata)="getdataofchild($event)"></app-child>
+
+
+this data came from child: :>{{getchildata}} <br>
+
+this data came from child with the help of @viewChild ::=>{{data}}
+
+<h5>End parent component</h5>
